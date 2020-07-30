@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/far-8-githubtest/static/css/main.5f361e03.chunk.css",
-    "main.js": "/far-8-githubtest/static/js/main.70c6d6d3.chunk.js",
-    "main.js.map": "/far-8-githubtest/static/js/main.70c6d6d3.chunk.js.map",
+    "main.js": "/far-8-githubtest/static/js/main.4878d231.chunk.js",
+    "main.js.map": "/far-8-githubtest/static/js/main.4878d231.chunk.js.map",
     "runtime-main.js": "/far-8-githubtest/static/js/runtime-main.90b01a83.js",
     "runtime-main.js.map": "/far-8-githubtest/static/js/runtime-main.90b01a83.js.map",
     "static/js/2.348b1a91.chunk.js": "/far-8-githubtest/static/js/2.348b1a91.chunk.js",
     "static/js/2.348b1a91.chunk.js.map": "/far-8-githubtest/static/js/2.348b1a91.chunk.js.map",
     "index.html": "/far-8-githubtest/index.html",
-    "precache-manifest.a151adc250b0aff40d8b59cf5b083857.js": "/far-8-githubtest/precache-manifest.a151adc250b0aff40d8b59cf5b083857.js",
+    "precache-manifest.5f95a9a8ff30eb41bfebbd4f240f35ec.js": "/far-8-githubtest/precache-manifest.5f95a9a8ff30eb41bfebbd4f240f35ec.js",
     "service-worker.js": "/far-8-githubtest/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/far-8-githubtest/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.348b1a91.chunk.js.LICENSE.txt": "/far-8-githubtest/static/js/2.348b1a91.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.90b01a83.js",
     "static/js/2.348b1a91.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.70c6d6d3.chunk.js"
+    "static/js/main.4878d231.chunk.js"
   ]
 }

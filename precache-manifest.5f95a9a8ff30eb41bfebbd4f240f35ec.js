@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2d7ca17a7d203cf617d59aaf29dbd0a",
+    "revision": "e6eec46aa2d015199eb0e098042e31fd",
     "url": "/far-8-githubtest/index.html"
   },
   {
-    "revision": "357259f8dce542b29ad3",
+    "revision": "18e4fe6346345dbf1d7b",
     "url": "/far-8-githubtest/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/far-8-githubtest/static/js/2.348b1a91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "357259f8dce542b29ad3",
-    "url": "/far-8-githubtest/static/js/main.70c6d6d3.chunk.js"
+    "revision": "18e4fe6346345dbf1d7b",
+    "url": "/far-8-githubtest/static/js/main.4878d231.chunk.js"
   },
   {
     "revision": "b85705d6c5e358144029",
