@@ -1,16 +1,17 @@
-import React from 'react';
-import './App.css';
-import JavierRivera from './javier-rivera/JavierRivera';
-import Dashboard from './Dashboard';
-import { Route } from "react-router-dom";
-
+import React from 'react'
+import './App.css'
+import JavierRivera from './javier-rivera/JavierRivera'
+import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz'
+import Dashboard from './Dashboard'
+import { Route } from 'react-router-dom'
 
 function App() {
-  return (
-    <div className="grid">
-      <div>
-        <Route exact path="/far-8-githubtest" component={Dashboard} />
-        {/* <Route path="/alfredo-zimperz" component={AlfredoZimperz} />
+	return (
+		<div className="grid">
+			<div>
+				<Route exact path="/far-8-githubtest" component={Dashboard} />
+				<Route path="/alfredo-zimperz" component={AlfredoZimperz} />
+				{/* 
         <Route path="/benjamin-cifre" component={BenjaminCifre} />
         <Route path="/daniel-nicolaevsky" component={DanielNicolaevsky} />
         <Route path="/danitza-bonilla" component={DanitzaBonilla} />
@@ -23,11 +24,10 @@ function App() {
         <Route path="/jorge-fernandez" component={JorgeFernandez} />
         <Route path="/juan-herrera" component={JuanHerrera} />
         <Route path="/nancy-pompei" component={NancyPompei} /> */}
-        <Route path="/javier-rivera" component={JavierRivera} />
-      </div>
-
-    </div>
-  );
+				<Route path="/javier-rivera" component={JavierRivera} />
+			</div>
+		</div>
+	)
 }
 
-export default App;
+export default App
