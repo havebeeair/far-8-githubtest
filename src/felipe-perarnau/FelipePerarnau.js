@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const JavierIzquierdo = (props) => {
-  return(
+const FelipePerarnau = (props) => {
+  return (
     <>
-      Javier Izquierdo
+      Felipe
       <Link to="/far-8-githubtest">volver</Link>
     </>
-  )
-}
+  );
+};
 
-export default JavierIzquierdo;
+export default FelipePerarnau;
