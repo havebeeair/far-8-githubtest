@@ -1,12 +1,12 @@
-
 import React from "react";
 import "./App.css";
 import JavierRivera from "./javier-rivera/JavierRivera";
 import FelipePerarnau from "./felipe-perarnau/FelipePerarnau";
 import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz'
+import JavierIzquierdo from  './javier-izquierdo/JavierIzquierdo';
 import Dashboard from "./Dashboard";
-import { Route } from "react-router-dom";
 import GustavoVelasquez from "./gustavo-velasquez/GustavoVelasquez";
+import { Route } from "react-router-dom";
 
 function App() {
 	return (
@@ -21,7 +21,6 @@ function App() {
         <Route path="/diego-fried" component={DiegoFried} />
         <Route path="/esteban-raffo" component={EstebanRaffo} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
-        <Route path="/javier-izquierdo" component={JavierIzquierdo} />
         <Route path="/jorge-elias" component={JorgeElias} />
         <Route path="/jorge-fernandez" component={JorgeFernandez} />
         <Route path="/juan-herrera" component={JuanHerrera} />
@@ -29,7 +28,7 @@ function App() {
         <Route path="/gustavo-velasquez" component={GustavoVelasquez} />
         <Route path="/javier-rivera" component={JavierRivera} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
-        <Route path="/javier-rivera" component={JavierRivera} />
+        <Route path="/javier-izquierdo" component={JavierIzquierdo} />
       </div>
     </div>
   );
