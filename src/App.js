@@ -1,9 +1,11 @@
-import React from 'react'
-import './App.css'
-import JavierRivera from './javier-rivera/JavierRivera'
+
+import React from "react";
+import "./App.css";
+import JavierRivera from "./javier-rivera/JavierRivera";
+import FelipePerarnau from "./felipe-perarnau/FelipePerarnau";
 import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz'
-import Dashboard from './Dashboard'
-import { Route } from 'react-router-dom'
+import Dashboard from "./Dashboard";
+import { Route } from "react-router-dom";
 
 function App() {
 	return (
@@ -24,10 +26,13 @@ function App() {
         <Route path="/jorge-fernandez" component={JorgeFernandez} />
         <Route path="/juan-herrera" component={JuanHerrera} />
         <Route path="/nancy-pompei" component={NancyPompei} /> */}
-				<Route path="/javier-rivera" component={JavierRivera} />
-			</div>
-		</div>
-	)
+        <Route path="/javier-rivera" component={JavierRivera} />
+        <Route path="/felipe-perarnau" component={FelipePerarnau} />
+        <Route path="/javier-rivera" component={JavierRivera} />
+      </div>
+    </div>
+  );
+
 }
 
 export default App
