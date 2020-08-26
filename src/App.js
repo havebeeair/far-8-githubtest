@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import JavierRivera from './javier-rivera/JavierRivera';
+import JavierIzquierdo from  './javier-izquierdo/JavierIzquierdo';
 import Dashboard from './Dashboard';
 import { Route } from "react-router-dom";
 
@@ -17,9 +18,9 @@ function App() {
         <Route path="/diego-fried" component={DiegoFried} />
         <Route path="/esteban-raffo" component={EstebanRaffo} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
-        <Route path="/gustavo-velasquez" component={GustavoVelasquez} />
+  <Route path="/gustavo-velasquez" component={GustavoVelasquez} />*/}
         <Route path="/javier-izquierdo" component={JavierIzquierdo} />
-        <Route path="/jorge-elias" component={JorgeElias} />
+   {/*}     <Route path="/jorge-elias" component={JorgeElias} />
         <Route path="/jorge-fernandez" component={JorgeFernandez} />
         <Route path="/juan-herrera" component={JuanHerrera} />
         <Route path="/nancy-pompei" component={NancyPompei} /> */}
