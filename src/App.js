@@ -7,6 +7,7 @@ import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz'
 import Dashboard from "./Dashboard";
 import { Route } from "react-router-dom";
 import GustavoVelasquez from "./gustavo-velasquez/GustavoVelasquez";
+import DanitzaBonilla from './danitza-bonilla/DanitzaBonilla'
 
 function App() {
 	return (
@@ -14,11 +15,11 @@ function App() {
 			<div>
 				<Route exact path="/far-8-githubtest" component={Dashboard} />
 				<Route path="/alfredo-zimperz" component={AlfredoZimperz} />
-				{/* 
+{/* 				
         <Route path="/benjamin-cifre" component={BenjaminCifre} />
-        <Route path="/daniel-nicolaevsky" component={DanielNicolaevsky} />
+        <Route path="/daniel-nicolaevsky" component={DanielNicolaevsky} /> */}
         <Route path="/danitza-bonilla" component={DanitzaBonilla} />
-        <Route path="/diego-fried" component={DiegoFried} />
+        {/* <Route path="/diego-fried" component={DiegoFried} />
         <Route path="/esteban-raffo" component={EstebanRaffo} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
         <Route path="/javier-izquierdo" component={JavierIzquierdo} />
