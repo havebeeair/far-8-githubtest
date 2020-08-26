@@ -1,9 +1,10 @@
-import React from 'react';
-import './App.css';
-import JavierRivera from './javier-rivera/JavierRivera';
-import Dashboard from './Dashboard';
-import { Route } from "react-router-dom";
+import React from "react";
+import "./App.css";
+import JavierRivera from "./javier-rivera/JavierRivera";
+import FelipePerarnau from "./felipe-perarnau/FelipePerarnau";
 
+import Dashboard from "./Dashboard";
+import { Route } from "react-router-dom";
 
 function App() {
   return (
@@ -24,8 +25,8 @@ function App() {
         <Route path="/juan-herrera" component={JuanHerrera} />
         <Route path="/nancy-pompei" component={NancyPompei} /> */}
         <Route path="/javier-rivera" component={JavierRivera} />
+        <Route path="/felipe-perarnau" component={FelipePerarnau} />
       </div>
-
     </div>
   );
 }
