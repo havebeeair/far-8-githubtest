@@ -6,6 +6,7 @@ import FelipePerarnau from "./felipe-perarnau/FelipePerarnau";
 import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz'
 import Dashboard from "./Dashboard";
 import { Route } from "react-router-dom";
+import GustavoVelasquez from "./gustavo-velasquez/GustavoVelasquez";
 
 function App() {
 	return (
@@ -20,12 +21,12 @@ function App() {
         <Route path="/diego-fried" component={DiegoFried} />
         <Route path="/esteban-raffo" component={EstebanRaffo} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
-        <Route path="/gustavo-velasquez" component={GustavoVelasquez} />
         <Route path="/javier-izquierdo" component={JavierIzquierdo} />
         <Route path="/jorge-elias" component={JorgeElias} />
         <Route path="/jorge-fernandez" component={JorgeFernandez} />
         <Route path="/juan-herrera" component={JuanHerrera} />
         <Route path="/nancy-pompei" component={NancyPompei} /> */}
+        <Route path="/gustavo-velasquez" component={GustavoVelasquez} />
         <Route path="/javier-rivera" component={JavierRivera} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
         <Route path="/javier-rivera" component={JavierRivera} />
