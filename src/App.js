@@ -1,17 +1,19 @@
+
 import React from "react";
 import "./App.css";
 import JavierRivera from "./javier-rivera/JavierRivera";
 import FelipePerarnau from "./felipe-perarnau/FelipePerarnau";
-
+import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz'
 import Dashboard from "./Dashboard";
 import { Route } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="grid">
-      <div>
-        <Route exact path="/far-8-githubtest" component={Dashboard} />
-        {/* <Route path="/alfredo-zimperz" component={AlfredoZimperz} />
+	return (
+		<div className="grid">
+			<div>
+				<Route exact path="/far-8-githubtest" component={Dashboard} />
+				<Route path="/alfredo-zimperz" component={AlfredoZimperz} />
+				{/* 
         <Route path="/benjamin-cifre" component={BenjaminCifre} />
         <Route path="/daniel-nicolaevsky" component={DanielNicolaevsky} />
         <Route path="/danitza-bonilla" component={DanitzaBonilla} />
@@ -26,9 +28,11 @@ function App() {
         <Route path="/nancy-pompei" component={NancyPompei} /> */}
         <Route path="/javier-rivera" component={JavierRivera} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
+        <Route path="/javier-rivera" component={JavierRivera} />
       </div>
     </div>
   );
+
 }
 
-export default App;
+export default App
