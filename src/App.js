@@ -16,7 +16,7 @@ function App() {
 				<Route exact path="/far-8-githubtest" component={Dashboard} />
 				<Route path="/alfredo-zimperz" component={AlfredoZimperz} />
 				{/* 
-        <Route path="/benjamin-cifre" component={BenjaminCifre} />
+        <Route path="/benjamin-cifre" component={BenjaminCifre} />  
         <Route path="/daniel-nicolaevsky" component={DanielNicolaevsky} />
         <Route path="/danitza-bonilla" component={DanitzaBonilla} />
         <Route path="/diego-fried" component={DiegoFried} />
