@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import JavierRivera from './javier-rivera/JavierRivera';
+import NancyPompei from './nancy-pompei/NancyPompei';
 import Dashboard from './Dashboard';
 import { Route } from "react-router-dom";
 
@@ -21,8 +22,8 @@ function App() {
         <Route path="/javier-izquierdo" component={JavierIzquierdo} />
         <Route path="/jorge-elias" component={JorgeElias} />
         <Route path="/jorge-fernandez" component={JorgeFernandez} />
-        <Route path="/juan-herrera" component={JuanHerrera} />
-        <Route path="/nancy-pompei" component={NancyPompei} /> */}
+        <Route path="/juan-herrera" component={JuanHerrera} />*/}
+        <Route path="/nancy-pompei" component={NancyPompei} /> 
         <Route path="/javier-rivera" component={JavierRivera} />
       </div>
 
