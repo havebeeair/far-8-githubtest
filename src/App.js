@@ -3,7 +3,8 @@ import React from "react";
 import "./App.css";
 import JavierRivera from "./javier-rivera/JavierRivera";
 import FelipePerarnau from "./felipe-perarnau/FelipePerarnau";
-import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz'
+import AlfredoZimperz from './alfredo-zimperz/AlfredoZimperz';
+import EstebanRaffo from "./esteban-raffo/EstebanRaffo";
 import Dashboard from "./Dashboard";
 import { Route } from "react-router-dom";
 
@@ -18,7 +19,6 @@ function App() {
         <Route path="/daniel-nicolaevsky" component={DanielNicolaevsky} />
         <Route path="/danitza-bonilla" component={DanitzaBonilla} />
         <Route path="/diego-fried" component={DiegoFried} />
-        <Route path="/esteban-raffo" component={EstebanRaffo} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
         <Route path="/gustavo-velasquez" component={GustavoVelasquez} />
         <Route path="/javier-izquierdo" component={JavierIzquierdo} />
@@ -26,6 +26,7 @@ function App() {
         <Route path="/jorge-fernandez" component={JorgeFernandez} />
         <Route path="/juan-herrera" component={JuanHerrera} />
         <Route path="/nancy-pompei" component={NancyPompei} /> */}
+        <Route path="/esteban-raffo" component={EstebanRaffo} />
         <Route path="/javier-rivera" component={JavierRivera} />
         <Route path="/felipe-perarnau" component={FelipePerarnau} />
         <Route path="/javier-rivera" component={JavierRivera} />
